@@ -1,0 +1,42 @@
+Name American Weapon Box
+ShortName american
+TopTexture boxTop
+SideTexture americanBox
+BottomTexture boxBottom
+BlockID 152
+Recipe I iron B dyePowder.4 R dyePowder.1
+III
+BRR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 12
+AddGun m1Carbine 6 iron 10 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun m1Garand 8 iron 12 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun springfieldrifle 10 iron 12 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun springfield 10 iron 12 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun thompson 6 iron 8 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun BAR 13 iron 10 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun colt 5 iron 4 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun bazooka 20 iron 8 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun browning 20 iron 4 log
+AddAmmo mgbox 250 medium 5 iron
+AddAltAmmo mgdrum 50 medium 4 iron
+AddGun trench 10 iron 5 log
+AddAmmo shotgunbox 1 iron 1 gunpowder 1 paper
+AddGun 1917 5 iron 2 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun m2flamethrower 12 iron
+AddAmmo m2flame 8 iron 12 gunpowder

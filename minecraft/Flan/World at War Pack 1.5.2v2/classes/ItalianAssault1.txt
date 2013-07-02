@@ -1,0 +1,7 @@
+Name Infantry
+ShortName italianAssault1
+AddItem beretta38
+AddItem berretam
+AddItem ww2Knife
+AddItem light 64
+AddItem light 16

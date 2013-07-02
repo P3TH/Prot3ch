@@ -1,0 +1,25 @@
+Name German Empire Weapon Box
+ShortName germanWW1
+TopTexture boxTop
+SideTexture GermanWW1
+BottomTexture boxBottom
+BlockID 164
+Recipe I iron B dyePowder.0 R dyePowder.1 W dyePowder.15
+III
+BWR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 4
+AddGun gewehr 8 iron 12 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun gewehrSniper 8 iron 12 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun mauser 6 iron 4 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun madsen 16 iron 8 log
+AddAmmo lmgmag 30 medium 3 iron

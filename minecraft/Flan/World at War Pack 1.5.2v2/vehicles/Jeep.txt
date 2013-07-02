@@ -1,0 +1,46 @@
+Name Jeep
+ShortName Jeep
+ItemID 28555
+Icon Jeep
+Model WillyJeep
+Texture SkinJeep
+MaxSpeed 5
+ShootDelay 4
+ShellDelay 4
+CargoSlots 10
+BombSlots 0
+Health 300
+CollisionBoxes 1
+AddCollisionBox 0 0 6 0 0
+AllowBodyGuns True
+AllowTurretGuns False
+TurnLeftSpeed 2
+TurnRightSpeed 2
+Acceleration 1
+Decceleration 1
+FuelTankSize 1000
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShootSound bullet
+ShellSound shell
+Driver -9 5 18 //Pilots Position
+Passengers 2 //No of Passengers
+Passenger 0 9 -4 18 0 //Passenger 1
+Passenger 1 0 1 37 0 //Passenger 2
+GunYawMin -45
+GunYawMax 45
+GunPitchMin -45
+GunPitchMax 45
+WheelPosition 0 -14 2 -22
+WheelPosition 1 -14 2 22
+WheelPosition 2 14 2 22
+WheelPosition 3 14 2 -22
+//Recipe
+Chassis smallChassis
+FrontWheels wheel
+BackWheels wheel
+Tracks None
+Turret None
+Dyes Black

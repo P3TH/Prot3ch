@@ -1,0 +1,31 @@
+Name Italian Weapon Box
+ShortName Italian
+TopTexture boxTop
+SideTexture ItalianBox
+BottomTexture boxBottom
+BlockID 160
+Recipe I iron W dyePowder.15 R dyePowder.1 G dyePowder.2
+III
+GWR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun carcano 8 iron 12 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun carcanosniper 8 iron 12 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun beretta38 7 iron 4 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun berretam 6 iron
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun panzerschreck 25 iron 6 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun breda 22 iron 7 log
+AddAmmo mgdrum 50 medium 4 iron
+AddGun flammen 11 iron
+AddAmmo m2flame 8 iron 12 gunpowder

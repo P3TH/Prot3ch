@@ -1,0 +1,8 @@
+Name Scout
+ShortName russianScout
+AddItem nagantSniper
+AddItem tt33
+AddItem ww2Knife
+AddItem ww2Binoculars
+AddItem medium 15
+AddItem light 16

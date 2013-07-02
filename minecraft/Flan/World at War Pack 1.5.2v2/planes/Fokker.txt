@@ -1,0 +1,58 @@
+Name Fokker
+ShortName fokker
+ItemID 4027
+Icon Fokker
+Model FokkerDr1
+Texture Fokker
+MaxPropellerSpeed 2.8
+TakeOffSpeed 2.5
+CameraDistance 9
+//0 - Nose propeller, 1 - Inner Wing Propellers, 2 - Outer Wing Propellers, 3 - Inner and Outer Propellers
+PropSetup 0
+//Propeller number, x, y, z. Numbering starts at 0.
+PropellerPos 0 0 0 14
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 4
+BombDelay 10
+CargoSlots 5
+BombSlots 1
+Health 460
+CollisionBoxes 0
+//Whether or not guns can be placed in these slots
+AllowWingGuns False
+AllowNoseGuns True
+//Next 3 are for large planes only
+AllowSideGuns False
+AllowTailGuns False
+AllowDorsalGun False
+//Add positions for the pilot controlled guns. That is, nose and wing guns.
+//AddGunPosition <type> <x> <y> <Z> where type is one of the corresponding numbers
+//0 : Left Nose, 1 : Right Nose, 2 : Left Wing, 3 : Right Wing
+AddGunPosition 0 3 24 7
+AddGunPosition 1 -3 24 7
+TurnLeftSpeed 1.5
+TurnRightSpeed 1.5
+RollLeftSpeed 1.7
+RollRightSpeed 1.7
+LookUpSpeed 2
+LookDownSpeed 2
+Acceleration 2
+Decceleration 2
+FuelTankSize 1500
+MaxHeight 256
+StartSound propStart
+StartSoundLength 20
+PropSound propSound
+PropSoundLength 30
+ShootSound PlaneShoot
+BombSound bomb
+Pilot 0 13 -20
+Passengers 0
+//Recipe
+Propeller woodenPropeller
+Cockpit woodenCockpit
+Wings triplaneWing
+Bay None
+Tail woodenTail
+//Dyes are None, Black, Red, Green, Brown, Blue, Purple, Cyan, LGrey, Grey, Pink, Lime, Yellow, LBlue, Magenta, Orange, White
+Dyes Red

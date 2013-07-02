@@ -1,0 +1,35 @@
+Name French Weapon Box
+ShortName french
+TopTexture boxTop
+SideTexture FrenchBox
+BottomTexture boxBottom
+BlockID 161
+Recipe I iron B dyePowder.4 W dyePowder.15 R dyePowder.1
+III
+BWR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun mas36 10 iron 8 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun massniper 10 iron 8 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun lebel 10 iron 7 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun lebelSniper 10 iron 7 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun ribeyrolle 6 iron 3 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun 1935 5 iron 2 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun PIAT 21 iron 5 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun fm24 15 iron 8 log
+AddAmmo lmgmag 30 medium 3 iron
+AddGun lifebuoy 10 iron
+AddAmmo m2flame 8 iron 12 gunpowder

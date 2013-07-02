@@ -1,0 +1,78 @@
+Name Heinkel He111
+ShortName HE111
+ItemID 23319
+Icon IconHE111
+Model HE111
+Texture HE111
+MaxPropellerSpeed 2.0
+TakeOffSpeed 2.0
+CameraDistance 20.0
+//0 - Nose propeller, 1 - Inner Wing Propellers, 2 - Outer Wing Propellers, 3 - Inner and Outer Propellers
+PropSetup 1
+//Propeller number, x, y, z. Numbering starts at 0.
+PropellerPos 0 -44 22 15
+PropellerPos 1 44 22 15
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 7
+BombDelay 100
+CargoSlots 0
+BombSlots 6
+Health 1500
+CollisionBoxes 16
+AddCollisionBox 0 0 30 -2 0
+AddCollisionBox 1 0 30 -41 0
+AddCollisionBox 2 0 30 -109 3
+AddCollisionBox 3 0 30 -145 3
+AddCollisionBox 4 0 30 -187 3
+AddCollisionBox 5 0 44 -221 3
+AddCollisionBox 6 16 21 -24 2
+AddCollisionBox 7 45 21 -24 2
+AddCollisionBox 8 90 28 -24 2
+AddCollisionBox 9 135 34 -24 2
+AddCollisionBox 10 175 40 -24 2
+AddCollisionBox 11 -16 21 -24 1
+AddCollisionBox 12 -45 21 -24 1
+AddCollisionBox 13 -90 28 -24 1
+AddCollisionBox 14 -135 34 -24 1
+AddCollisionBox 15 -175 40 -24 1
+//Whether or not guns can be placed in these slots
+AllowWingGuns False
+AllowNoseGuns False
+//Next 3 are for large planes only
+AllowSideGuns False
+AllowTailGuns False
+AllowDorsalGun False
+//Add positions for the pilot controlled guns. That is, nose and wing guns.
+//AddGunPosition <type> <x> <y> <Z> where type is one of the corresponding numbers
+//0 : Left Nose, 1 : Right Nose, 2 : Left Wing, 3 : Right Wing
+BombPosition 0 10 -20
+TurnLeftSpeed 1
+TurnRightSpeed 1
+RollLeftSpeed 1
+RollRightSpeed 1
+LookUpSpeed 1
+LookDownSpeed 1
+Acceleration 2
+Decceleration 2
+FuelTankSize 12000
+MaxHeight 256
+StartSound propStart
+StartSoundLength 20
+PropSound LancasterProp
+PropSoundLength 49
+ShootSound gatling
+BombSound bomb
+Pilot 4 25 -6
+Passengers 3
+Passenger 0 -3 20 18 0
+Passenger 1 0 28 -62 0
+Passenger 2 0 10 -89 0
+//Recipe
+BigTable True
+Propeller metalPropeller
+Cockpit metalCockpit
+Wings metalWingSection
+Bay bombBay
+Tail metalTail
+//Dyes are None, Black, Red, Green, Brown, Blue, Purple, Cyan, LGrey, Grey, Pink, Lime, Yellow, LBlue, Magenta, Orange, White
+Dyes LGrey

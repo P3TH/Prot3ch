@@ -1,0 +1,17 @@
+Name Support
+ShortName frenchSupport
+AddItem fm24
+AddItem bazooka
+AddItem 1935
+AddItem ww2Knife
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem rocket 3
+AddItem light 32
+AddItem lmgmag
+AddItem lmgmag
+AddItem lmgmag

@@ -1,0 +1,7 @@
+Name Infantry
+ShortName americanAssault1
+AddItem thompson
+AddItem colt
+AddItem ww2Knife
+AddItem light 64
+AddItem light 64

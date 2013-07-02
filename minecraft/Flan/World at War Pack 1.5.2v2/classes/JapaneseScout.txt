@@ -1,0 +1,8 @@
+Name Scout
+ShortName japaneseScout
+AddItem type97
+AddItem type94
+AddItem ww2Knife
+AddItem ww2Binoculars
+AddItem medium 15
+AddItem light 16

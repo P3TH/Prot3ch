@@ -1,0 +1,16 @@
+Name Support
+ShortName russianSupport
+AddItem dp28
+AddItem bazooka
+AddItem tt33
+AddItem ww2Knife
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem rocket 3
+AddItem light 32
+AddItem mgdrum
+AddItem mgdrum

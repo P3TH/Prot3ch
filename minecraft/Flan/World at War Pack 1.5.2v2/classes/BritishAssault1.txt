@@ -1,0 +1,8 @@
+Name Infantry
+ShortName britishAssault1
+AddItem sten
+AddItem webley
+AddItem ww2Knife
+AddItem light 64
+AddItem light 64
+AddItem medium 16

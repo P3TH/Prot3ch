@@ -1,0 +1,8 @@
+Name Scout
+ShortName italianScout
+AddItem carcanoSniper
+AddItem berretam
+AddItem ww2Knife
+AddItem ww2Binoculars
+AddItem medium 15
+AddItem light 16

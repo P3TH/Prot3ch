@@ -1,0 +1,16 @@
+Name Support
+ShortName americanSupport
+AddItem browning
+AddItem bazooka
+AddItem colt
+AddItem ww2Knife
+AddItem rocket 3
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem light 64
+AddItem mgbox
+AddItem mgbox

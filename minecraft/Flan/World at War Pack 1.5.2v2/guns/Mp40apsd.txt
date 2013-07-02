@@ -1,0 +1,30 @@
+Name MP 40 Aperture Supressor
+ShortName mp40apsd
+//The ammo this gun uses (shortName)
+Ammo light
+Icon mp40apsd
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23750
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 50
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 3
+//Damage in half hearts
+Damage 8
+//The higher this value, the more the bullets spread
+Accuracy 4
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound sdpistol
+ReloadSound mp40Reload
+Mode FullAuto
+Scope aperturesight
+ZoomLevel 2.5
+Deployable False
+DeployedModel None
+ShapelessRecipe mp40 ap sd
+//For guns in which the magazine is integrated
+LoadIntoGun 32
+//Bullet speed, default 3.0
+BulletSpeed 3

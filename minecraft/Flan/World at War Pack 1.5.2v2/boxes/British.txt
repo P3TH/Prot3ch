@@ -1,0 +1,35 @@
+Name British Weapon Box
+ShortName british
+TopTexture boxTop
+SideTexture britishBox
+BottomTexture boxBottom
+BlockID 151
+Recipe I iron B dyePowder.4 R dyePowder.1
+III
+BRB
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 9
+AddGun leeEnfield 8 iron 15 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun leeEnfieldSniper 8 iron 15 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun sten 9 iron
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun webley 5 iron 3 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun PIAT 21 iron 5 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun bren 15 iron 8 log
+AddAmmo lmgmag 30 medium 3 iron
+AddGun lewi 13 iron 5 log
+AddAmmo mgdrum 50 medium 4 iron
+AddGun trench 10 iron 5 log
+AddAmmo shotgunbox 1 iron 1 gunpowder 1 paper
+AddGun lifebuoy 1 sbarrel 2 mHandel 2 parts
+AddAmmo m2flame 8 iron 12 gunpowder

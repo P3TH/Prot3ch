@@ -1,0 +1,36 @@
+Name German Weapon Box
+ShortName german
+TopTexture boxTop
+SideTexture germanBox
+BottomTexture boxBottom
+BlockID 150
+Recipe I iron B dyePowder.0 R dyePowder.1
+III
+RBR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 9
+AddGun kar98k 8 iron 15 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun kar98kSniper 8 iron 15 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun mp40 10 iron
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun mp44 12 iron 8 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun luger 4 iron 3 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun panzerschreck 20 iron 6 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun mg42 20 iron 7 log
+AddAmmo mgbox 250 medium 5 iron
+AddAltAmmo mgdrum 50 medium 4 iron
+AddGun luft 12 iron 4 log
+AddAmmo shotgunbox 1 iron 1 gunpowder 1 paper
+AddGun flammen 11 iron
+AddAmmo m2flame 8 iron 12 gunpowder

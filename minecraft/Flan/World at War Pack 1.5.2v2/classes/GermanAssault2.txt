@@ -1,0 +1,8 @@
+Name Infantry
+ShortName germanAssault2
+AddItem mp44
+AddItem luger
+AddItem ww2Knife
+AddItem medium 64
+AddItem medium 32
+AddItem light 16

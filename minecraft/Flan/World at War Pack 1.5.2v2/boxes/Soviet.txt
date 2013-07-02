@@ -1,0 +1,31 @@
+Name Soviet Weapon Box
+ShortName soviet
+TopTexture boxTop
+SideTexture RussianBox
+BottomTexture boxBottom
+BlockID 154
+Recipe I iron Y dyePowder.11 R dyePowder.1
+III
+YRR
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as iron (ingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 7
+AddGun nagant 8 iron 12 log
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun nagantSniper 8 iron 12 log 2 glass
+AddAmmo mediumbox 2 iron 1 gunpowder
+AddGun ppsh 10 iron 5 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun tt33 5 iron 3 log
+AddAmmo lightbox 1 iron 1 gunpowder
+AddGun bazooka 20 iron 8 log
+AddAmmo rocketbox 3 iron 4 gunpowder
+AddGun dp28 18 iron 6 log
+AddAmmo mgdrum 50 medium 4 iron
+AddGun roks 12 log 10 iron
+AddAmmo m2flame 8 iron 12 gunpowder

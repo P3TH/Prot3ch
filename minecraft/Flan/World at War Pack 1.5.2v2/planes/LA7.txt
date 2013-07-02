@@ -1,0 +1,72 @@
+Name LA7
+ShortName la7
+ItemID 23490
+Icon LA7
+Model YAK3
+Texture LA7
+MaxPropellerSpeed 4.5
+TakeOffSpeed 3.0
+CameraDistance 10.0
+//0 - Nose propeller, 1 - Inner Wing Propellers, 2 - Outer Wing Propellers, 3 - Inner and Outer Propellers
+PropSetup 0
+//Propeller number, x, y, z. Numbering starts at 0.
+PropellerPos 0 0 17 42
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 2
+BombDelay 15
+CargoSlots 4
+BombSlots 1
+Health 750
+CollisionBoxes 13
+AddCollisionBox 0 0 18 -25 0
+AddCollisionBox 1 0 18 0 0
+AddCollisionBox 2 0 18 20 0
+AddCollisionBox 3 0 18 40 0
+AddCollisionBox 4 0 22 -45 3
+AddCollisionBox 5 0 22 -65 3
+AddCollisionBox 6 0 25 -85 3
+AddCollisionBox 7 -20 10 0 1
+AddCollisionBox 8 -48 12 0 1
+AddCollisionBox 9 -75 15 0 1
+AddCollisionBox 10 20 10 0 2
+AddCollisionBox 11 48 12 0 2
+AddCollisionBox 12 75 15 0 2
+//Whether or not guns can be placed in these slots
+AllowWingGuns True
+AllowNoseGuns False
+//Next 3 are for large planes only
+AllowSideGuns False
+AllowTailGuns False
+AllowDorsalGun False
+//Add positions for the pilot controlled guns. That is, nose and wing guns.
+//AddGunPosition <type> <x> <y> <Z> where type is one of the corresponding numbers
+//0 : Left Nose, 1 : Right Nose, 2 : Left Wing, 3 : Right Wing
+AddGunPosition 2 -28 10 64
+AddGunPosition 3 28 10 64
+BombPosition 0 -16 0
+TurnLeftSpeed 2
+TurnRightSpeed 2
+RollLeftSpeed 2
+RollRightSpeed 2
+LookUpSpeed 2
+LookDownSpeed 2
+Acceleration 3
+Decceleration 3
+FuelTankSize 6000
+MaxHeight 256
+StartSound propStart
+StartSoundLength 20
+PropSound propSound
+PropSoundLength 30
+ShootSound PlaneShoot
+BombSound bomb
+Pilot 0 15 -11
+Passengers 0
+//Recipe
+Propeller metalPropeller
+Cockpit metalCockpit
+Wings metalWingSmall
+Bay bombBay
+Tail metalTail
+//Dyes are None, Black, Red, Green, Brown, Blue, Purple, Cyan, LGrey, Grey, Pink, Lime, Yellow, LBlue, Magenta, Orange, White
+Dyes Red

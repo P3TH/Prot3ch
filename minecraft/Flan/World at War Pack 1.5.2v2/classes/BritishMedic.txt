@@ -1,0 +1,7 @@
+Name Medic
+ShortName britishMedic
+AddItem leeEnfieldb
+AddItem webley
+AddItem ww2Knife
+AddItem potion 2 16421
+AddItem medium 36

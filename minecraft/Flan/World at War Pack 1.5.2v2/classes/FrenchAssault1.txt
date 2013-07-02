@@ -1,0 +1,7 @@
+Name Infantry
+ShortName frenchAssault1
+AddItem ribeyrolle
+AddItem 1935
+AddItem ww2Knife
+AddItem light 64
+AddItem medium 16

@@ -1,0 +1,8 @@
+Name Infantry
+ShortName russianAssault1
+AddItem ppsh
+AddItem tt33
+AddItem ww2Knife
+AddItem light 64
+AddItem light 64
+AddItem light 16

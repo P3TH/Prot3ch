@@ -1,0 +1,16 @@
+Name Support
+ShortName italianSupport
+AddItem breda
+AddItem panzerschreck
+AddItem berretam
+AddItem ww2Knife
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem medium 64
+AddItem rocket 3
+AddItem light 32
+AddItem mgdrum
+AddItem mgdrum

@@ -1,0 +1,7 @@
+Name Heavy Infantry
+ShortName americanAssault2
+AddItem BAR
+AddItem colt
+AddItem ww2Knife
+AddItem Medium 64
+AddItem light 32

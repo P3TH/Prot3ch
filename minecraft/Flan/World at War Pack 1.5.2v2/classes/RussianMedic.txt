@@ -1,0 +1,8 @@
+Name Medic
+ShortName russianMedic
+AddItem nagantb
+AddItem tt33
+AddItem ww2Knife
+AddItem potion 2 16421
+AddItem medium 10
+AddItem light 16
